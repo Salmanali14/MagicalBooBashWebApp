@@ -1,0 +1,76 @@
+/* Qr.css */
+
+.background-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('../Images/bgnew.png') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .main-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    background-color: transparent; /* Adjust as needed */
+  }
+  
+  .image {
+    width: 60vw;
+    position: absolute;
+    top: 50px;
+  }
+  
+  .qr-container {
+    width: 90%;
+    margin-top: 70px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgba(130, 172, 201, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .qr {
+    width: 130px;
+    height: 130px;
+  }
+  
+  .text {
+    color: #030C3A;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .scanned-button {
+    background-color: #030C3A;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-text {
+    color: #fff;
+  }
+  
